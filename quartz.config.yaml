@@ -1,0 +1,240 @@
+{
+  "configuration": {
+    "pageTitle": "无空 · PLC / WinCC",
+    "pageTitleSuffix": " · 技术实践作品集",
+    "enableSPA": true,
+    "enablePopovers": true,
+    "analytics": null,
+    "locale": "zh-CN",
+    "baseUrl": "localhost:8080",
+    "ignorePatterns": [
+      "private",
+      "templates",
+      ".obsidian"
+    ],
+    "theme": {
+      "fontOrigin": "local",
+      "cdnCaching": false,
+      "typography": {
+        "header": "Arial",
+        "body": "Arial",
+        "code": "Consolas"
+      },
+      "colors": {
+        "lightMode": {
+          "light": "#f8fafc",
+          "lightgray": "#dce4ed",
+          "gray": "#8c9bad",
+          "darkgray": "#334155",
+          "dark": "#172c46",
+          "secondary": "#1d5d91",
+          "tertiary": "#167d82",
+          "highlight": "rgba(29,93,145,0.09)",
+          "textHighlight": "#fff0b3"
+        },
+        "darkMode": {
+          "light": "#111c2a",
+          "lightgray": "#2c3c50",
+          "gray": "#8192a8",
+          "darkgray": "#d4dfeb",
+          "dark": "#f0f5fb",
+          "secondary": "#8dc5ee",
+          "tertiary": "#74d2cd",
+          "highlight": "rgba(141,197,238,0.12)",
+          "textHighlight": "#806500"
+        }
+      }
+    }
+  },
+  "plugins": [
+    {
+      "source": "@quartz-community/note-properties",
+      "enabled": true,
+      "options": {
+        "hidePropertiesView": true,
+        "includedProperties": []
+      },
+      "order": 5
+    },
+    {
+      "source": "@quartz-community/syntax-highlighting",
+      "enabled": true,
+      "options": {
+        "theme": {
+          "light": "github-light",
+          "dark": "github-dark"
+        },
+        "keepBackground": false
+      },
+      "order": 20
+    },
+    {
+      "source": "@quartz-community/obsidian-flavored-markdown",
+      "enabled": true,
+      "options": {
+        "enableInHtmlEmbed": false,
+        "enableCheckbox": true
+      },
+      "order": 30
+    },
+    {
+      "source": "@quartz-community/github-flavored-markdown",
+      "enabled": true,
+      "order": 40
+    },
+    {
+      "source": "@quartz-community/crawl-links",
+      "enabled": true,
+      "options": {
+        "markdownLinkResolution": "relative"
+      },
+      "order": 60
+    },
+    {
+      "source": "@quartz-community/description",
+      "enabled": true,
+      "order": 70
+    },
+    {
+      "source": "@quartz-community/remove-draft",
+      "enabled": true
+    },
+    {
+      "source": "@quartz-community/alias-redirects",
+      "enabled": true
+    },
+    {
+      "source": "@quartz-community/content-index",
+      "enabled": true,
+      "options": {
+        "enableSiteMap": false,
+        "enableRSS": false
+      }
+    },
+    {
+      "source": "@quartz-community/favicon",
+      "enabled": true
+    },
+    {
+      "source": "@quartz-community/content-page",
+      "enabled": true
+    },
+    {
+      "source": "@quartz-community/folder-page",
+      "enabled": true
+    },
+    {
+      "source": "@quartz-community/tag-page",
+      "enabled": true
+    },
+    {
+      "source": "@quartz-community/page-title",
+      "enabled": true,
+      "layout": {
+        "position": "left",
+        "priority": 10
+      }
+    },
+    {
+      "source": "@quartz-community/search",
+      "enabled": true,
+      "layout": {
+        "position": "left",
+        "priority": 20,
+        "group": "toolbar",
+        "groupOptions": {
+          "grow": true
+        }
+      }
+    },
+    {
+      "source": "@quartz-community/darkmode",
+      "enabled": true,
+      "layout": {
+        "position": "left",
+        "priority": 25,
+        "group": "toolbar"
+      }
+    },
+    {
+      "source": "@quartz-community/explorer",
+      "enabled": true,
+      "layout": {
+        "position": "left",
+        "priority": 50
+      }
+    },
+    {
+      "source": "@quartz-community/backlinks",
+      "enabled": true,
+      "layout": {
+        "position": "right",
+        "priority": 10
+      },
+      "options": {
+        "hideWhenEmpty": false
+      }
+    },
+    {
+      "source": "@quartz-community/graph",
+      "enabled": true,
+      "layout": {
+        "position": "right",
+        "priority": 20
+      },
+      "options": {
+        "localGraph": {
+          "depth": 1,
+          "showTags": false
+        },
+        "globalGraph": {
+          "showTags": false
+        }
+      }
+    },
+    {
+      "source": "@quartz-community/table-of-contents",
+      "enabled": true,
+      "layout": {
+        "position": "right",
+        "priority": 30
+      }
+    },
+    {
+      "source": "@quartz-community/article-title",
+      "enabled": true,
+      "layout": {
+        "position": "beforeBody",
+        "priority": 10
+      }
+    }
+  ],
+  "layout": {
+    "groups": {
+      "toolbar": {
+        "direction": "row",
+        "gap": "0.5rem"
+      }
+    },
+    "byPageType": {
+      "content": {},
+      "folder": {
+        "positions": {
+          "right": []
+        }
+      },
+      "tag": {
+        "positions": {
+          "right": []
+        }
+      },
+      "404": {
+        "positions": {
+          "beforeBody": [],
+          "left": [],
+          "right": []
+        }
+      }
+    }
+  }
+}

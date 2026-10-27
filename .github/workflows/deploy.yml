@@ -1,0 +1,41 @@
+name: Publish portfolio to GitHub Pages
+on:
+  push:
+    branches: [main, v5]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Set the publishing URL
+        run: node scripts/set-pages-url.mjs
+      - name: Build the website
+        run: npx quartz build
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+  deploy:
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.publish.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Publish
+        id: publish
+        uses: actions/deploy-pages@v4

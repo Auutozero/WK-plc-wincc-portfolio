@@ -1,0 +1,27 @@
+@use "./variables.scss" as *;
+:root {
+  --bodyFont: "Segoe UI", "Microsoft YaHei", sans-serif;
+  --headerFont: "Segoe UI", "Microsoft YaHei", sans-serif;
+  --codeFont: Consolas, "Cascadia Code", monospace;
+}
+body { line-height: 1.78; }
+.page-title { font-size: 1.3rem; line-height: 1.5; letter-spacing: .02em; }
+h1.article-title { font-size: 1.85rem; line-height: 1.4; }
+article h2 { padding-top: .45rem; border-top: 1px solid var(--lightgray); }
+article img { border: 1px solid var(--lightgray); border-radius: 8px; }
+article table { font-size: .92rem; }
+.sidebar.right .backlinks { box-sizing: border-box; min-width: 0; padding: 1rem; border: 1px solid var(--lightgray); border-radius: 10px; background: var(--light); }
+.sidebar.right h3 { font-size: 1rem; }
+.sidebar.right .backlinks ul { box-sizing: border-box; padding-left: 0; overflow-x: hidden; max-height: 20rem; }
+.sidebar.right .backlinks a { white-space: normal; overflow-wrap: anywhere; }
+@media (min-width: 1200px) {
+  .page > #quartz-body { column-gap: 1.5rem; grid-template-columns: 230px minmax(0, 1fr) 245px; }
+  .page { max-width: 1480px; }
+}
+@media (max-width: 800px) {
+  h1.article-title { font-size: 1.55rem; }
+  .sidebar.right { flex-direction: column; }
+  .sidebar.right > * { width: 100%; }
+  .sidebar.left .explorer-content { box-sizing: border-box; width: calc(100vw - 2rem); max-width: calc(100vw - 2rem); }
+  .sidebar.right .backlinks { margin-top: 1rem; }
+}
