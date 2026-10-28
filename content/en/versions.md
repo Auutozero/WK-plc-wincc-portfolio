@@ -40,3 +40,7 @@ Both PLC directories contain a historical `001_Powder_Conveying_System_2026.6.21
 A complete engineering release requires separate block, tag and hardware-configuration exports for each variant, with export dates and associated test results. A standalone `.ap16` description is not a complete program delivery.
 
 Related: [powder case](powder.md) · [evidence](evidence.md) · [workbook directory](tables.md)
+
+## Website downloads
+
+The two PLC folder copies exclude nested historical projects while preserving associated files. The current original WinCC RAR is also available. These copies have not been natively reopened or run; see [engineering downloads](downloads.md).

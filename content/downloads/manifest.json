@@ -1,0 +1,58 @@
+{
+  "prepared": "2026-10-28",
+  "items": [
+    {
+      "id": "simulation",
+      "file": "downloads/plc-simulation-v1.zip",
+      "bytes": 1125035,
+      "sha256": "2612b1e6fd2a9e837c9e40c37f8b0b7376ea68a520522dc24f39577499c89e1d",
+      "files": 36,
+      "project_file": "001_Powder_Conveying_System_Simmod_1.0/001_Powder_Conveying_System_Simmod_1.0.ap16",
+      "internal_name": "",
+      "compatibility": "",
+      "scope": "Root engineering project; nested 2026.6.21 project excluded; other source files unchanged.",
+      "verification": "ZIP integrity and per-file hashes only; no native project reopening, compilation or Runtime test."
+    },
+    {
+      "id": "physical",
+      "file": "downloads/plc-physical-v1.zip",
+      "bytes": 1220049,
+      "sha256": "d05141fc229e9dd649b7e0366f77e3eae225b4bc2ce3ea881a331b0f7c4320ae",
+      "files": 40,
+      "project_file": "001_Powder_Conveying_System_realmod_1.0/001_Powder_Conveying_System_realmod_1.0.ap16",
+      "internal_name": "",
+      "compatibility": "",
+      "scope": "Root engineering project; nested 2026.6.21 project excluded; other source files unchanged.",
+      "verification": "ZIP integrity and per-file hashes only; no native project reopening, compilation or Runtime test."
+    },
+    {
+      "id": "wincc",
+      "file": "downloads/wincc-project-20260918.rar",
+      "bytes": 57454535,
+      "sha256": "1fb68d084b15928f7bcb413cfabf47a738da3314376f8fb5f73abecadf90d105",
+      "scope": "Complete original WinCC archive; filename retained as version label, supplied file inspected on 2026-10-28.",
+      "verification": "All archive members streamed successfully; source hash matches. Native WinCC restoration and Runtime not tested."
+    },
+    {
+      "id": "process-note",
+      "file": "downloads/process-understanding.txt",
+      "bytes": 568,
+      "sha256": "e214a0a5024b0332a2ebbbdb0e8022094ecfc3574f62341c8adc11fa0ef2698b",
+      "scope": "Unmodified original supplied by author."
+    },
+    {
+      "id": "process-diagram",
+      "file": "downloads/powder-process.png",
+      "bytes": 394731,
+      "sha256": "bcd32b4a15548bb5802030b140dddc3b52d196ba513d888081eefab8b1cc054c",
+      "scope": "Unmodified original supplied by author."
+    },
+    {
+      "id": "powder-workbook",
+      "file": "tables/powder-equipment-io.xlsx",
+      "bytes": 13569,
+      "sha256": "f0925bb2d0ee97bdc5f401ba0f92471274877ff35f209df38f813b46e98c3b57",
+      "scope": "Existing public workbook, author metadata set to 无空; worksheets unchanged."
+    }
+  ]
+}

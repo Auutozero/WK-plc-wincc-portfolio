@@ -53,3 +53,5 @@ PLC 工程分为[模拟仿真版与现场版](versions.md)。近期个人记录�
 - [验证证据索引](evidence.md)与[技术概念索引](knowledge.md)
 
 本公开版本包含技术说明、表格及过程截图，未附可直接运行的完整 TIA／WinCC 工程。
+
+[工程下载与打开说明](downloads.md) · [工艺理解与流程图](process.md)

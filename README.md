@@ -28,3 +28,7 @@ npx quartz build --serve
 提交content、quartz、配置、依赖锁文件、scripts及.github工作流等源文件；node_modules与public为本地生成内容，不提交。项目中的3份XLSX位于content/tables，中英文页面共用这些文件。
 
 Quartz网站引擎为第三方开源软件，依据LICENSE.txt中的MIT条款使用。作品集内容、项目材料和第三方软件界面按content/zh/sources.md的来源说明分别记录。
+
+## 工程程序与配套资料
+
+首页分列 PLC 仿真版、PLC 实体版和 WinCC 完整工程下载，附设备点位表、工艺理解及流程图。详见[工程下载与打开说明](content/zh/downloads.md)。两个 PLC ZIP 排除嵌套旧工程，WinCC RAR 保留原包。下载文件核对与原生运行验证分别记录。

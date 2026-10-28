@@ -67,7 +67,7 @@ Air-supply-station diagram, equipment/I/O lists and TIA project description; imp
 <a id="s12"></a>
 ## S12 · Historical WinCC archive
 
-Read-only listing of the 20260918 RAR: 24 PDL and three BMO files, alongside runtime databases and other data. Original archive excluded.
+An earlier read-only listing identified 24 PDL files, three BMO files and runtime databases. The newly supplied archive with the same filename was rechecked on 2026-10-28 and has a different hash; current download scope is recorded in S16.
 
 <a id="s13"></a>
 ## S13 · WinCC script-collection index
@@ -77,7 +77,7 @@ Index of 153 distinct code entries organized by project captures, historical ver
 <a id="reuse"></a>
 ## Assets and AI assistance
 
-Six original screenshots come from project-debugging attachments retained in the author's notes and preserve their existing content. Rights in Siemens software interfaces and third-party files remain with their respective owners. Original PPT files, complete engineering projects and Siemens GSDML files are excluded. Programs, configuration and workbooks progressively created by the author are distinguished from technical learning references by their actual purpose.
+Six original screenshots come from project-debugging attachments retained in the author's notes and preserve their existing content. Rights in Siemens software interfaces and third-party files remain with their respective owners. From 2026-10-28, the website additionally provides two PLC project copies and the original complete WinCC archive, with scope in S16. The earlier document-only package retains its original scope. Original PPT files and standalone Siemens GSDML installation files are not added separately. Programs, configuration and workbooks progressively created by the author are distinguished from technical learning references by their actual purpose.
 
 AI assisted source checking, organization, explanatory diagram redrawing, bilingual drafting/translation and link validation. Generated explanations and outlines are not evidence of personal mastery or successful tests. No blanket open-source license is granted for all content; public presentation does not grant redistribution rights in third-party material.
 
@@ -92,3 +92,8 @@ Three workbooks contain eight worksheets covering powder equipment/I/O, WinCC al
 ## S15 · Project Construction and Responsibilities
 
 Construction method confirmed by the author on 2026-10-27: the project began with blank engineering projects, and PLC programs, WinCC screens and scripts, supporting workbooks and configuration were progressively created, implemented and refined by the author. Technical references supported learning of principles and methods. Construction responsibilities and runtime verification are recorded separately; simulation and physical-PLC scope are specified in the evidence pages.
+
+<a id="s16"></a>
+## S16 · Engineering downloads and process files, 2026-10-28
+
+The author selected the two PLC directories, original WinCC RAR, powder I/O workbook, personal process note and process diagram for the website. The author confirmed a private practice project with practice-only accounts and passwords not reused elsewhere, and chose the complete WinCC download. PLC ZIPs exclude nested historical projects; the RAR, TXT and PNG preserve original bytes. See [download notes](downloads.md) for hashes and verification limits, and [process understanding](process.md).

@@ -9,3 +9,7 @@ For local preview, install Node.js 22+ and npm 10.9.2+, then run `npm ci` and `n
 For publishing, push the source to a public GitHub repository and select GitHub Actions under Settings → Pages. The included publishing workflow derives the URL from the target repository.
 
 The Quartz engine retains its upstream MIT license. Portfolio and third-party content are attributed separately in the source notes.
+
+## Engineering downloads
+
+The home page provides separate simulation PLC, physical PLC and complete WinCC downloads, with equipment/I/O, process notes and the process diagram. See [opening notes and checksums](content/en/downloads.md). PLC ZIPs exclude nested historical projects; the WinCC RAR preserves the original archive. Download integrity is separate from native engineering validation.

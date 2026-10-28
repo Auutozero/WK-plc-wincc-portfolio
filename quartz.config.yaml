@@ -218,11 +218,7 @@
     },
     "byPageType": {
       "content": {},
-      "folder": {
-        "positions": {
-          "right": []
-        }
-      },
+      "folder": {},
       "tag": {
         "positions": {
           "right": []
